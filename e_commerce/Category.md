@@ -45,11 +45,33 @@
 
 ### 原型图设计
 
+<img src="/assets/images/e_commerce/07.png"/>
+
+<img src="/assets/images/e_commerce/08.png"/>
+
+当品类包含子品类时，父级品类不能被删除，必须要先删除完所有的子品类，以防止造成系统内部脏数据。
+
+<img src="/assets/images/e_commerce/09.png"/>
+
+关联品类页原型图：
+
+<img src="/assets/images/e_commerce/10.png"/>
+
+前端品类关联后端品类时，可以关联到任意一级，无须精确到最后一级。
+
 ## 前端品类管理
 
+对于后来系统来说，主要用于数据分类，功能相对较少一些，对于页面优化并没有那么高要求，所以跳转路径、ICON设置就不需要进行维护。
 
+<img src="/assets/images/e_commerce/11.png"/>
 
+<img src="/assets/images/e_commerce/12.png"/>
 
+表单页原型图：
+
+<img src="/assets/images/e_commerce/13.png"/>
+
+> 在展示树形结构数据时，当数据量比较少的时候(如系统菜单列表)通常会采用带有上下级折叠功能的样式进行展示，但是数据量比较大的时候，通常采用分页展示，不然单页面数据太大，经常出现卡顿现象。
 
 
 
