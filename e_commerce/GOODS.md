@@ -183,7 +183,7 @@ SKU可以简单理解为：SKU = SPU + 销售属性，当在SPU上添加上商�
 
 
 
-
+* [电商后台设计：商品维护|人人都是产品经理](http://www.woshipm.com/pd/4133323.html)
 
 
 
